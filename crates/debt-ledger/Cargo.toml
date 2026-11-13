@@ -1,0 +1,12 @@
+[package]
+name = "colossus-debt-ledger"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+colossus-types = { path = "../types" }
+colossus-core = { path = "../core" }
+colossus-lending = { path = "../lending" }
+serde = { workspace = true }
+thiserror = { workspace = true }
+chrono = { workspace = true }

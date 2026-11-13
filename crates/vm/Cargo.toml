@@ -1,0 +1,14 @@
+[package]
+name = "colossus-vm"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+colossus-types = { path = "../types" }
+colossus-core = { path = "../core" }
+colossus-ledger = { path = "../ledger" }
+serde = { workspace = true }
+thiserror = { workspace = true }
+blake3 = { workspace = true }
+bincode = { workspace = true }
+hex = { workspace = true }

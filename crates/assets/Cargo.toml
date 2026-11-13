@@ -1,0 +1,11 @@
+[package]
+name = "colossus-assets"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+colossus-types = { path = "../types" }
+colossus-core = { path = "../core" }
+serde = { workspace = true }
+thiserror = { workspace = true }
+blake3 = { workspace = true }

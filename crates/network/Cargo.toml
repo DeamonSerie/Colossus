@@ -1,0 +1,11 @@
+[package]
+name = "colossus-network"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+colossus-types = { path = "../types" }
+colossus-core = { path = "../core" }
+serde = { workspace = true }
+libp2p = { workspace = true }
+tokio = { workspace = true }

@@ -1,0 +1,30 @@
+[package]
+name = "colossus-node"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "colossus-node"
+path = "src/main.rs"
+
+[dependencies]
+colossus-types = { path = "../types" }
+colossus-core = { path = "../core" }
+colossus-consensus = { path = "../consensus" }
+colossus-ledger = { path = "../ledger" }
+colossus-assets = { path = "../assets" }
+colossus-debt-ledger = { path = "../debt-ledger" }
+colossus-lending = { path = "../lending" }
+colossus-liquidation = { path = "../liquidation" }
+colossus-vm = { path = "../vm" }
+colossus-bridge = { path = "../bridge" }
+colossus-network = { path = "../network" }
+colossus-rpc = { path = "../rpc" }
+colossus-storage = { path = "../storage" }
+clap = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+serde = { workspace = true }
+tracing-subscriber = "0.3"
+blake3 = { workspace = true }
+bincode = { workspace = true }

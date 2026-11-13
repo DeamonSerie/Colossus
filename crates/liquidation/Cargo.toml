@@ -1,0 +1,12 @@
+[package]
+name = "colossus-liquidation"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+colossus-types = { path = "../types" }
+colossus-core = { path = "../core" }
+colossus-debt-ledger = { path = "../debt-ledger" }
+serde = { workspace = true }
+thiserror = { workspace = true }
+blake3 = { workspace = true }

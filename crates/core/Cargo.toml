@@ -1,0 +1,10 @@
+[package]
+name = "colossus-core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+colossus-types = { path = "../types" }
+serde = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
